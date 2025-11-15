@@ -1,7 +1,19 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [259] using StatReload
-INFO:     Started server process [261]
+INFO:     Started reloader process [340] using StatReload
+INFO:     Started server process [342]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:41550 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:35464 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:35482 - "GET /products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35478 - "GET /categories HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35482 - "GET /categories HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35478 - "GET /products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35490 - "GET /cart/3c3233d3-2868-45e8-8e26-d4107dc90a61 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35490 - "GET /cart/3c3233d3-2868-45e8-8e26-d4107dc90a61 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44680 - "GET /categories HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44692 - "GET /products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44700 - "GET /cart/3c3233d3-2868-45e8-8e26-d4107dc90a61 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44700 - "GET /categories HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44692 - "GET /products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44680 - "GET /cart/3c3233d3-2868-45e8-8e26-d4107dc90a61 HTTP/1.1" 200 OK
